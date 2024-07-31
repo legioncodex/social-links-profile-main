@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    color: var(--White);
+    background-color: var(--Off-Black);
+    font-family: url(https://fonts.google.com/specimen/Inter);
+    font-size: 14px;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+  --Green: hsl(75, 94%, 57%);
+}
+img {
+  border-radius: 90px;
+  margin: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--Dark-Grey);
+    padding: 30px;
+    border-radius: 15px;
+    width: 500px;
+    
+}
+.body>p:nth-of-type(1){
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.body>p:nth-of-type(2){
+    font-size: 14px;
+    color: var(--Green);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.body>p:nth-of-type(3){
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+button{
+padding: 20px;
+border-radius: 15px;
+background: var(--Grey);
+margin-bottom: 20px;
+color: var(--White);
+border: 0;
+width:100%;
+font-weight: 400;
+font-size: 14px;
+}
+button:active{
+    background: var(--Green);
+    color: var(--Off-Black);
+}
+button:hover{
+    cursor:pointer;
+}
